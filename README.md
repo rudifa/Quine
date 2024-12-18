@@ -525,3 +525,12 @@ add_executable(quine quine.cpp)
    ```
 
 This enhanced quine now generates its source code, a `Makefile`, and a `CMakeLists.txt` file, giving you flexibility to build the project using either `make` or CMake!
+
+## NOTES by @rudifa
+
+The Makefile is mine, while the main.cpp is ChatGPT's first version.
+
+The Makefile that ChatGPT generated is not working.
+Making it work and retrofitting into main.cpp is left as an exercise for the next reader.
+
+Same goes for the CMakeLists.txt.
